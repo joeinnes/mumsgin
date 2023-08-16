@@ -1,0 +1,19 @@
+.animate {
+  transition-property: opacity, transform;
+  transition-duration: 1000ms;
+}
+
+.hiddenToRight {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.hiddenToLeft {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.visible {
+  transform: translateX(0%);
+  opacity: 1;
+}
